@@ -1,0 +1,133 @@
+![image.png](https://cdn.steemitimages.com/DQmVStQp6vdGH9kr7s1Pji4a97Rate5GPnh884r38v7GBgA/image.png)
+Спасибо Лютику за иллюстрацию.
+
+<h2>Рейтинг за день </h2>
+|N|аккаунт|баллы за комментарии|баллы за посты|общий балл за день|
+------------|-------------|------------|-------------|---------|
+|1|zaria56|8.8|1.5|10.3|
+|2|solox|8.2|2.1|10.3|
+|3|bukvoed|8.6|1.6|10.2|
+|4|tinochka2|8.7|1.4|10.1|
+|5|mamamasha|8.5|1|9.5|
+|6|radmi|8.4|1.1|9.5|
+|7|darina14|8|1.3|9.3|
+|8|greatketty|8.3|0.9|9.2|
+|9|steem-bru|8.1|0.3|8.4|
+|10|greencmetaha|7.9|0|7.9|
+|11|olesia|7.8|0|7.8|
+|12|nexcis|7.7|0|7.7|
+|13|igarrik|6.8|0.8|7.6|
+|14|lilia737|7.6|0|7.6|
+|15|notannov|7.5|0|7.5|
+|16|filinpaul|7.4|0|7.4|
+|17|slon21veka|7.2|0.2|7.4|
+|18|knopka145|6.1|1.2|7.3|
+|19|galca|7.3|0|7.3|
+|20|strecoza|6.6|0.6|7.2|
+|21|ir3k|7.1|0|7.1|
+|22|noha26|6.3|0.7|7|
+|23|safridafatih|7|0|7|
+|24|strawberrry|6.9|0|6.9|
+|25|klukva|6.7|0|6.7|
+|26|veryna|6.5|0.1|6.6|
+|27|may2015|6.4|0|6.4|
+|28|blessed-girl|6.2|0|6.2|
+|29|pnessy|6|0|6|
+|30|nilpan|5.9|0|5.9|
+|31|olga.maslievich|5.8|0|5.8|
+|32|veta-less|5.7|0|5.7|
+|33|antikus369|0|2.2|2.2|
+|34|apnigrich|0|1.9|1.9|
+|35|alexmove|0|1.8|1.8|
+|36|alena-vladi|0|1.7|1.7|
+|37|allfabeta|0|0.5|0.5|
+|38|nishadi89|0|0.4|0.4|
+|39|kawusada|0|0|0|
+|40|leigth|0|0|0|
+|41|lopzdaniel|0|0|0|
+|42|makcl|0|0|0|
+|43|maksina|0|0|0|
+|44|menfita|0|0|0|
+|45|mgaft1|0|0|0|
+|46|milakz|0|0|0|
+|47|mireyalongart|0|0|0|
+|48|miyexi|0|0|0|
+|49|mostofajaman|0|0|0|
+|50|nadeem8|0|0|0|
+|51|nastena09|0|0|0|
+|52|nesmeliy|0|0|0|
+|53|aleisbertblanco|0|0|0|
+|54|anasuleidy|0|0|0|
+|55|antorv|0|0|0|
+|56|arrabela|0|0|0|
+|57|norat23|0|0|0|
+|58|babadawuda|0|0|0|
+|59|belenc|0|0|0|
+|60|alanasteemit|0|0|0|
+|61|olgasi|0|0|0|
+|62|olya-vichenka|0|0|0|
+|63|papi.mati|0|0|0|
+|64|pinksakura|0|0|0|
+|65|bonp|0|0|0|
+|66|progressivechef|0|0|0|
+|67|danny.green|0|0|0|
+|68|roxandra|0|0|0|
+|69|ruthsany|0|0|0|
+|70|daybook|0|0|0|
+|71|samsonik|0|0|0|
+|72|shemzee|0|0|0|
+|73|silviadiez|0|0|0|
+|74|diivlev|0|0|0|
+|75|ekatirina|0|0|0|
+|76|eto-ka|0|0|0|
+|77|solperez|0|0|0|
+|78|soroka74|0|0|0|
+|79|genomil|0|0|0|
+|80|gmenka|0|0|0|
+|81|irenenavarroart|0|0|0|
+|82|svetozarnaya|0|0|0|
+|83|theonlyway|0|0|0|
+|84|thimalteb|0|0|0|
+|85|jemilatu|0|0|0|
+|86|slem|0|0|0|
+|87|jurgan|0|0|0|
+|88|vlad26|0|0|0|
+|89|vlas-ir-a|0|0|0|
+|90|vlaswrest|0|0|0|
+|91|voloshyn|0|0|0|
+|92|willeusz|0|0|0|
+|93|yahnel|0|0|0|
+|94|yaqubbilqis|0|0|0|
+|95|yenny2401|0|0|0|
+|96|yurche|0|0|0|
+|97|k-karim|0|0|0|
+|98|zhanavic69|0|0|0|
+
+<h2> How points are calculated. </h2>
+
+A list of all participants is compiled, descending by the number of published comments. Then the number of the participant in this list is subtracted from the total number of participants and divided by 10.
+
+This formula is calculated for both comments and posts. If there are several posts, the points are summed up for each post.
+
+And then the points for posts and comments are added up. In the future, competitions will also be added to the rating work and special tasks (including optional tasks for better acquaintance of participants, posts on a given topic, and so on).
+
+<h2>Как считаются баллы.</h2>
+
+Составляется список всех участников с убыванием по количеству опубликованных комментариев. Затем от общего количества участников отнимается номер участника в этом списке и делится на 10. 
+
+Эта формула высчитывается и для комментариев и для постов. Если постов несколько - баллы суммируются за каждый пост. 
+
+И затем баллы за посты и комментарии суммируются. В дальнейшем будут также добавлены конкурсы в работу рейтинга и специальные задания (в том числе необязательные задания для большего знакомства участников, посты на заданную тему и так далее). 
+
+Описание скриптов: https://steemit.com/hive-171319/@alexmove/the-word-game-post-2
+
+The idea is to agree with the community members to put an upvote on the post of the member with the most points per day. This is useful for members who put upvote, as curators, since many people will vote for this post. This is useful for participants, as content creators, as they can receive additional rewards for their activity. This is useful for the community as it encourages members to write posts every day
+
+And after the system starts working, I will ask the curators about the possibility to support the upvote to the holder of the maximum number of points.
+
+Идея заключается в том, что договорится с участниками сообщества ставить upvote посту участника, набравшего наибольшее количество баллов в день. Это полезно участникам, которые ставят upvote, как кураторам, так как за этот пост проголосует множество человек. Это полезно участникам, как создателям контента, так как могут получить за свою активность дополнительное вознаграждение. Это полезно сообществу, так как стимулирует участников писать посты каждый день
+
+А после того, как система заработает, я попрошу кураторов о возможности поддерживать upvote обладателю максимального количество баллов.
+
+Спасибо за внимание!
+
