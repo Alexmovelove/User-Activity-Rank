@@ -40,14 +40,16 @@ Thank you for your activity! The leader of the rating receives a reward in the f
 
 Благодарим за активность! Лидер рейтинга получает вознаграждение в виде апвоутов всей команды поддержки рейтинга. Описание команды ниже по ссылке. Приглашаю присоединиться к команде. Важен каждый цент и каждый апвоут!
 
-<p><b>Please vote for our team as witness</b></p>
-<a href="https://steemit.com/hive-171319/@alexmove/eto-vazhno-prizyv-progolosovat-steem-market-reiting-i-proverka-unikalnosti">Поддержите проект голосованием за свидетелей</a>
+I invite you to look at our projects, and support by vote for witness on the site: https://steemitwallet.com/~witnesses 
+accounts: alexmove.witness and steemit-market
 
+Active user rating is one of the projects of our team:
+<a href="https://steemit.com/hive-171319/@alexmove/eto-vazhno-prizyv-progolosovat-steem-market-reiting-i-proverka-unikalnosti">Больше инорфмации о наших проектах тут</a>
 <a href="https://steemit.com/steemit/@alexmove/it-is-important-please-vote-steem-market-rating-and-uniqueness-check
-">Support the project by voting for witnesses</a>
+">Please see more information about our project here</a>
 
+<h2>Анализ комментариев и постов, на основании которого построен общий рейтинг:</h2>
 
-Анализ комментариев и постов, на основании которого построен общий рейтинг:
 
 <a href="https://steemit.com/@alexmove.witness/w${bd_name}rankpost${d}">Ссылка на рейтинг постов</a>
 <a href="https://steemit.com/@alexmove.witness/${bd_name}rankcom${d}">Ссылка на рейтинг комментариев</a>

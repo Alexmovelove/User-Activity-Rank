@@ -31,7 +31,7 @@ let votey = "alexmove";
 	d = d.replace(/-/gi, '');
 	
 
-let accounts = fs.readFileSync('report'+d+'.txt').toString();
+let accounts = fs.readFileSync(bd_name+d+'.txt').toString();
 
 //accounts = accounts.replace(/\n\n/gi, '\n');
 							

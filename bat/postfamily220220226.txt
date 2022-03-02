@@ -1,0 +1,93 @@
+
+	Сортировка по длине постов. 
+
+<a href="https://steemit.com/hive-171319/@alexmove/eto-vazhno-prizyv-progolosovat-steem-market-reiting-i-proverka-unikalnosti">Поддержите проект голосованием за свидетелей</a>
+<a href="https://steemit.com/steemit/@alexmove/it-is-important-please-vote-steem-market-rating-and-uniqueness-check
+">Support the project by voting for witnesses</a>
+
+|N|acc|title|ком.|длина|
+------------|-------------|------------|-------------|----|
+|2|nurfiana|<a href="/hive-153018/@nurfiana/the-diary-game-betterlife-or-or-26-02-2021-my-activity-today-or-attend-a-friend-s-wedding-set-10-steemit-family-by-nurfiana">The Diary Game Betterlife    26 02 2021   My activity today    attend a friend s wedding     set 10   steemit family by  nurfiana  club5050</a>|3|4757|
+
+|3|soroka74|<a href="/hive-153018/@soroka74/malysh-i-karlson-na-ldu-semeinyi-pokhod-na-spektakl">МАЛЫШ И КАРЛСОН НА ЛЬДУ  Семейный поход на спектакль</a>|2|4600|
+
+|4|solox|<a href="/hive-153018/@solox/contest-the-song-that-influenced-me-much-ya-lechu-na-vozdushnom-share-club100">Contest   The Song That Influenced Me Much   Я лечу на воздушном шаре   Club100   </a>|9|4061|
+
+|5|steemit-family|<a href="/hive-153018/@steemit-family/soobshestvo-otkryto-dlya-vsekh-pravila-soobshestva">The community is open to everyone  Community Rules    Сообщество открыто для всех  Правила сообщества </a>|3|3707|
+
+|6|ranarahman|<a href="/hive-153018/@ranarahman/diary-game-or-wonderful-saturday-or-26-02-2022-or">Diary game   Wonderful Saturday   26 02 2022  </a>|2|3451|
+
+|7|greatketty|<a href="/hive-153018/@greatketty/rasskaz-docheri-kotenok-i-shenok">Рассказ дочери  Котенок и щенок </a>|3|3405|
+
+|8|strawberrry|<a href="/hive-153018/@strawberrry/kartina-rafaelya-santi-madonna-s-mladencem-madonna-konestabile">Картина Рафаэля Санти  Мадонна с младенцем   мадонна конестабиле </a>|1|2858|
+
+|9|knopka145|<a href="/hive-153018/@knopka145/club5050-the-diary-game-26-02-2022">CLUB5050    THE DIARY GAME 26 02 2022</a>|12|2037|
+
+Описание процесса составления Rank: https://steemit.com/hive-171319/@alexmove/rank-post-checking-for-the-uniqueness-of-the-text-or-nodejs-for-steemit
+
+Если есть идеи или замечания, то пишите.
+Спасибо за внимание
+
+
+![TWG Family (1).png](https://cdn.steemitimages.com/DQmeiBfS83ybeF8vWbvg7zzaMdH4K1szYGgTHDHRD8hkore/TWG%20Family%20(1).png)
+	Сортировка по длине постов. 
+
+<a href="https://steemit.com/hive-171319/@alexmove/eto-vazhno-prizyv-progolosovat-steem-market-reiting-i-proverka-unikalnosti">Поддержите проект голосованием за свидетелей</a>
+<a href="https://steemit.com/steemit/@alexmove/it-is-important-please-vote-steem-market-rating-and-uniqueness-check
+">Support the project by voting for witnesses</a>
+
+|N|acc|title|ком.|длина|
+------------|-------------|------------|-------------|----|
+|2|nurfiana|<a href="/hive-153018/@nurfiana/the-diary-game-betterlife-or-or-26-02-2021-my-activity-today-or-attend-a-friend-s-wedding-set-10-steemit-family-by-nurfiana">The Diary Game Betterlife    26 02 2021   My activity today    attend a friend s wedding     set 10   steemit family by  nurfiana  club5050</a>|3|4757|
+
+|3|soroka74|<a href="/hive-153018/@soroka74/malysh-i-karlson-na-ldu-semeinyi-pokhod-na-spektakl">МАЛЫШ И КАРЛСОН НА ЛЬДУ  Семейный поход на спектакль</a>|2|4600|
+
+|4|solox|<a href="/hive-153018/@solox/contest-the-song-that-influenced-me-much-ya-lechu-na-vozdushnom-share-club100">Contest   The Song That Influenced Me Much   Я лечу на воздушном шаре   Club100   </a>|9|4061|
+
+|5|steemit-family|<a href="/hive-153018/@steemit-family/soobshestvo-otkryto-dlya-vsekh-pravila-soobshestva">The community is open to everyone  Community Rules    Сообщество открыто для всех  Правила сообщества </a>|3|3707|
+
+|6|ranarahman|<a href="/hive-153018/@ranarahman/diary-game-or-wonderful-saturday-or-26-02-2022-or">Diary game   Wonderful Saturday   26 02 2022  </a>|2|3451|
+
+|7|greatketty|<a href="/hive-153018/@greatketty/rasskaz-docheri-kotenok-i-shenok">Рассказ дочери  Котенок и щенок </a>|3|3405|
+
+|8|strawberrry|<a href="/hive-153018/@strawberrry/kartina-rafaelya-santi-madonna-s-mladencem-madonna-konestabile">Картина Рафаэля Санти  Мадонна с младенцем   мадонна конестабиле </a>|1|2858|
+
+|9|knopka145|<a href="/hive-153018/@knopka145/club5050-the-diary-game-26-02-2022">CLUB5050    THE DIARY GAME 26 02 2022</a>|12|2037|
+
+Описание процесса составления Rank: https://steemit.com/hive-171319/@alexmove/rank-post-checking-for-the-uniqueness-of-the-text-or-nodejs-for-steemit
+
+Если есть идеи или замечания, то пишите.
+Спасибо за внимание
+
+
+![TWG Family (1).png](https://cdn.steemitimages.com/DQmeiBfS83ybeF8vWbvg7zzaMdH4K1szYGgTHDHRD8hkore/TWG%20Family%20(1).png)
+	Сортировка по длине постов. 
+
+<a href="https://steemit.com/hive-171319/@alexmove/eto-vazhno-prizyv-progolosovat-steem-market-reiting-i-proverka-unikalnosti">Поддержите проект голосованием за свидетелей</a>
+<a href="https://steemit.com/steemit/@alexmove/it-is-important-please-vote-steem-market-rating-and-uniqueness-check
+">Support the project by voting for witnesses</a>
+
+|N|acc|title|ком.|длина|
+------------|-------------|------------|-------------|----|
+|2|nurfiana|<a href="/hive-153018/@nurfiana/the-diary-game-betterlife-or-or-26-02-2021-my-activity-today-or-attend-a-friend-s-wedding-set-10-steemit-family-by-nurfiana">The Diary Game Betterlife    26 02 2021   My activity today    attend a friend s wedding     set 10   steemit family by  nurfiana  club5050</a>|3|4757|
+
+|3|soroka74|<a href="/hive-153018/@soroka74/malysh-i-karlson-na-ldu-semeinyi-pokhod-na-spektakl">МАЛЫШ И КАРЛСОН НА ЛЬДУ  Семейный поход на спектакль</a>|2|4600|
+
+|4|solox|<a href="/hive-153018/@solox/contest-the-song-that-influenced-me-much-ya-lechu-na-vozdushnom-share-club100">Contest   The Song That Influenced Me Much   Я лечу на воздушном шаре   Club100   </a>|9|4061|
+
+|5|steemit-family|<a href="/hive-153018/@steemit-family/soobshestvo-otkryto-dlya-vsekh-pravila-soobshestva">The community is open to everyone  Community Rules    Сообщество открыто для всех  Правила сообщества </a>|3|3707|
+
+|6|ranarahman|<a href="/hive-153018/@ranarahman/diary-game-or-wonderful-saturday-or-26-02-2022-or">Diary game   Wonderful Saturday   26 02 2022  </a>|2|3451|
+
+|7|greatketty|<a href="/hive-153018/@greatketty/rasskaz-docheri-kotenok-i-shenok">Рассказ дочери  Котенок и щенок </a>|3|3405|
+
+|8|strawberrry|<a href="/hive-153018/@strawberrry/kartina-rafaelya-santi-madonna-s-mladencem-madonna-konestabile">Картина Рафаэля Санти  Мадонна с младенцем   мадонна конестабиле </a>|1|2858|
+
+|9|knopka145|<a href="/hive-153018/@knopka145/club5050-the-diary-game-26-02-2022">CLUB5050    THE DIARY GAME 26 02 2022</a>|12|2037|
+
+Описание процесса составления Rank: https://steemit.com/hive-171319/@alexmove/rank-post-checking-for-the-uniqueness-of-the-text-or-nodejs-for-steemit
+
+Если есть идеи или замечания, то пишите.
+Спасибо за внимание
+
+
