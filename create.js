@@ -32,12 +32,14 @@ let num_day = settings.num_day;
 let bd_name = settings.bd_name;
 let hive_name = settings.hive_name;
 let url_post = settings.url_post;
+let password_mysql = settings.password_mysql;
+let user_mysql = settings.user_mysql;
 
 config = {
   host: "localhost",
-  user: "root",
+  user: user_mysql,
   database: bd_name,
-  password: "root"
+  password: password_mysql
 }
 
 const connection = mysql.createConnection(config);
