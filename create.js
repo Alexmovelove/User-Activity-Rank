@@ -1,7 +1,23 @@
 //(поменять название таблицы)
 //Создать пост в стимите.
 
-
+/*
+node /mnt/disk15/familyrank/User-Activity-Rank/create.js
+node /mnt/disk15/familyrank/User-Activity-Rank/create_spisok.js
+node /mnt/disk15/familyrank/User-Activity-Rank/spisok.js
+node /mnt/disk15/familyrank/User-Activity-Rank/addcom.js
+node /mnt/disk15/familyrank/User-Activity-Rank/addpost.js
+node /mnt/disk15/familyrank/User-Activity-Rank/create_day.js
+node /mnt/disk15/familyrank/User-Activity-Rank/sortcom.js
+node /mnt/disk15/familyrank/User-Activity-Rank/sortcom.js
+node /mnt/disk15/familyrank/User-Activity-Rank/sortpost.js
+node /mnt/disk15/familyrank/User-Activity-Rank/sortpost.js
+node /mnt/disk15/familyrank/User-Activity-Rank/sum.js
+node /mnt/disk15/familyrank/User-Activity-Rank/listcom.js
+node /mnt/disk15/familyrank/User-Activity-Rank/listpost.js
+node /mnt/disk15/familyrank/User-Activity-Rank/fulllist.js
+node /mnt/disk15/familyrank/User-Activity-Rank/fulllistpost.js
+*/
 
 /*
 spisok_twg

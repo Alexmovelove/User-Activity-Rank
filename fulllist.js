@@ -93,7 +93,7 @@ connection.query(sql,  function(err, results) {
 
 			let z = Number(i + 1);
 
-			notfull = '\n|'+z+'|'+users[i].author+'|'+users[i].comments+'|'+users[i].posts  +'|'+us[i].points+'|';
+			notfull = '\n|'+z+'|'+users[i].author+'|'+users[i].comments+'|'+users[i].posts  +'|'+users[i].points+'|';
 
 		  
 			const fs = require("fs");            
