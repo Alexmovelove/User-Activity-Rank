@@ -18,7 +18,7 @@ d = d.toJSON().split("T")[0];
 
 let permlink = new Date().toISOString().replace(/[^a-zA-Z0-9]+/g, '').toLowerCase();
 const url_post = "20220303t005841954z";
-let answer2 = "just cron test. thx.";
+let answer2 = "just cron test. thx."+d+permlink;
 
 steem.broadcast.comment(
 						wifkey, // Your posting wif
