@@ -31,25 +31,8 @@ let formula;
 let mytable = 'p'+d;
 
 
-	let full = image_list+`
-	Сортировка по длине постов. 
-
-
-I invite you to look at our projects, and support by vote for witness on the site: https://steemitwallet.com/~witnesses 
-accounts: alexmove.witness and steemit-market
-
-Active user rating is one of the projects of our team:
-<a href="https://steemit.com/hive-171319/@alexmove/eto-vazhno-prizyv-progolosovat-steem-market-reiting-i-proverka-unikalnosti">Больше инорфмации о наших проектах тут</a>
-<a href="https://steemit.com/steemit/@alexmove/it-is-important-please-vote-steem-market-rating-and-uniqueness-check
-">Please see more information about our project here</a>
-
-
-
-<a href="https://steemit.com/hive-171319/@alexmove/eto-vazhno-prizyv-progolosovat-steem-market-reiting-i-proverka-unikalnosti">Поддержите проект голосованием за свидетелей</a>
-<a href="https://steemit.com/steemit/@alexmove/it-is-important-please-vote-steem-market-rating-and-uniqueness-check
-">Support the project by voting for witnesses</a>
-
-|N|acc|title|ком.|длина|
+	let full = `
+|N|acc|title|comm.|length|
 ------------|-------------|------------|-------------|----|`;
 
 
@@ -103,13 +86,9 @@ fs.appendFileSync("post"+bd_name+d+".txt",notfull);
 	//console.log(notfull);
 	
 	
+const fs = require("fs");            
 
-full = `\nОписание процесса составления Rank: https://steemit.com/hive-171319/@alexmove/rank-post-checking-for-the-uniqueness-of-the-text-or-nodejs-for-steemit
-
-Если есть идеи или замечания, то пишите.
-Спасибо за внимание
-
-
+full = `\n
 `
 
 
