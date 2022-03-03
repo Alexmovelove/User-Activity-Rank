@@ -44,7 +44,7 @@ Thank you for your activity! The leader of the rating receives a reward in the f
 
 <h2>Rating for the day</h2>
 |N|account|points for comments|points for posts|total score for the day|
-------------|-------------|------------|---------- ---|---------|`;
+------------|-------------|------------|-------------|---------|`;
 
 const fs = require("fs");            
 fs.appendFileSync(bd_name+d+".txt",full);
