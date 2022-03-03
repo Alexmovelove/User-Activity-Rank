@@ -37,13 +37,15 @@ let votey = "alexmove";
 let accounts = fs.readFileSync(bd_name+d+'.txt').toString();
 
 //accounts = accounts.replace(/\n\n/gi, '\n');
-							
+let accounts_com = fs.readFileSync('com'+bd_name+d+'.txt').toString()	
+accounts_com = accounts_com.replace(/\n\n/gi, '\n');
+		
 console.log(accounts);
 
 let permlink = new Date().toISOString().replace(/[^a-zA-Z0-9]+/g, '').toLowerCase();
 
 console.log(permlink);
-let title = "The Word Game💎 "+ title_name +" " + d+" Daily Rating. With Reward!";
+let title = "Users Activity Rank 💎 "+ title_name +" " + d+" Daily Rating. With Reward!";
 
 
 steem.broadcast.comment(

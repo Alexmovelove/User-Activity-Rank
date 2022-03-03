@@ -36,32 +36,15 @@ console.log(mytable);
 
 	let full = `![image.png](https://cdn.steemitimages.com/DQmVStQp6vdGH9kr7s1Pji4a97Rate5GPnh884r38v7GBgA/image.png)
 
-Лидер рейтинга (Rating leader): 
-
-Пост для вознаграждения (Reward post):
-
 Thank you for your activity! The leader of the rating receives a reward in the form of upvotes of the entire rating support team. The description of the command is below. I invite you to join the team. Every cent and every upvote counts!
 
-Благодарим за активность! Лидер рейтинга получает вознаграждение в виде апвоутов всей команды поддержки рейтинга. Описание команды ниже по ссылке. Приглашаю присоединиться к команде. Важен каждый цент и каждый апвоут!
 
-I invite you to look at our projects, and support by vote for witness on the site: https://steemitwallet.com/~witnesses 
-accounts: alexmove.witness and steemit-market
-
-Active user rating is one of the projects of our team:
-<a href="https://steemit.com/hive-171319/@alexmove/eto-vazhno-prizyv-progolosovat-steem-market-reiting-i-proverka-unikalnosti">Больше инорфмации о наших проектах тут</a>
 <a href="https://steemit.com/steemit/@alexmove/it-is-important-please-vote-steem-market-rating-and-uniqueness-check
 ">Please see more information about our project here</a>
 
-<h2>Анализ комментариев и постов, на основании которого построен общий рейтинг:</h2>
-
-
-<a href="https://steemit.com/@alexmove.witness/w${bd_name}rankpost${d}">Ссылка на рейтинг постов</a>
-<a href="https://steemit.com/@alexmove.witness/${bd_name}rankcom${d}">Ссылка на рейтинг комментариев</a>
-
-<h2>Рейтинг за день </h2>
-|N|аккаунт|баллы за комментарии|баллы за посты|общий балл за день|
-------------|-------------|------------|-------------|---------|`;
-
+<h2>Rating for the day</h2>
+|N|account|points for comments|points for posts|total score for the day|
+------------|-------------|------------|---------- ---|---------|`;
 
 const fs = require("fs");            
 fs.appendFileSync(bd_name+d+".txt",full);
@@ -77,9 +60,18 @@ connection.query(sql,  function(err, results) {
     if(err) console.log(err);
     const users = results;
 	console.log(users);
-     for(let i=0; i < users.length; i++){
-		 if (users[i].points != 0)
+	
+	
+	
+     for(let i=0; i < users.length; i++){	
+		 if (users[i].points == 0)
 		 { 
+
+
+
+		}
+		else 
+		{
                      
 			let notfull;
 			var d = new Date(); // Today!
@@ -98,6 +90,7 @@ connection.query(sql,  function(err, results) {
 		  
 			const fs = require("fs");            
 			fs.appendFileSync(bd_name+d+".txt",notfull);
+
 		 }
 
   //	console.log(notfull);
@@ -109,33 +102,44 @@ connection.query(sql,  function(err, results) {
 	//  + '\n|'+i+1+'|'+users[i].author+'|'+'<a href="'+ users[i].url+'">' + title + '</a>'+'|'+ users[i].comments+'|'+ users[i].length+'|\n' 
 
 	//console.log(notfull);
-	
-	
+	      const fs = require("fs");            
+		
+//accounts = accounts.replace(/\n\n/gi, '\n');
+let accounts_com = fs.readFileSync('com'+bd_name+d+'.txt').toString()	
+accounts_com = accounts_com.replace(/\n\n/gi, '\n');
+
+let accounts_post = fs.readFileSync('post'+bd_name+d+'.txt').toString()	
+accounts_post = accounts_post.replace(/\n\n/gi, '\n');
 
 full = `
 
-Что такое рейтинг The Word Game. Как это работает. И почему это хорошо:
-https://steemit.com/hive-171319/@alexmove/chto-takoe-reiting-the-word-game-kak-eto-rabotaet-i-pochemu-eto-khorosho
+<h2>Analysis of comments and posts, on the basis of which the overall rating is built:</h2>
+
+List of participants by number of written comments:
+
+` + accounts_com + `  
+
+Список постов в сортировке по длине:
+
+` + accounts_post + `
 
 What is the rating of The Word Game. How it works. And why is it good: https://steemit.com/hive-171319/@alexmove/what-is-the-rating-of-the-word-game-how-it-works-and-why-is-it-good
 
-Приглашение присоединиться к команде вознаграждения лидера рейтинга (Welcome to the ranking leader reward team): 
+Welcome to the ranking leader reward team: 
 
 https://steemit.com/hive-171319/@alexmove/the-word-game-rewards-for-the-leader-of-the-daily-rating-of-the-word-game-i-invite-you-to-join-support-priglashayu
 	
 Full NodeJs Scripts:
+https://github.com/Alexmovelove/User-Activity-Rank.git
 https://steemit.com/hive-171319/@alexmove/the-word-game-all-nodejs-scripts-actual
 
-Спасибо за внимание!
-
+Thanks for attention!
 `
 
 
-	
-      const fs = require("fs");            
 	  fs.appendFileSync(bd_name+d+".txt",full);
 		
-		
+	
 });
  
 connection.end();
