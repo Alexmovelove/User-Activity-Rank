@@ -78,28 +78,27 @@ connection.query(sql,  function(err, results) {
     const users = results;
 	console.log(users);
      for(let i=0; i < users.length; i++){
+		 if (users[i].points != 0)
+		 { 
                      
-let notfull;
-		var d = new Date(); // Today!
-	d.setDate(d.getDate()-num_day); // Yesterday!
-	d = d.toJSON().split("T")[0];
-	d = d.replace(/-/gi, '');
-					 
+			let notfull;
+			var d = new Date(); // Today!
+			d.setDate(d.getDate()-num_day); // Yesterday!
+			d = d.toJSON().split("T")[0];
+			d = d.replace(/-/gi, '');
+							 
+			//        title = users[i].title.replace(/[^a-zа-яё0-9\s]/gi, ' ');
 
-    //        title = users[i].title.replace(/[^a-zа-яё0-9\s]/gi, ' ');
+			console.log('|',i+1,'|',users[i].author,'|',users[i].comments,'|',users[i].posts,'|',users[i].points,'|');
 
-	
-	       
-      console.log('|',i+1,'|',users[i].author,'|',users[i].comments,'|',users[i].posts,'|',users[i].points,'|');
+			let z = Number(i + 1);
 
-   let z = Number(i + 1);
+			notfull = '\n|'+z+'|'+users[i].author+'|'+users[i].comments+'|'+users[i].posts  +'|'+us[i].points+'|';
 
-      notfull = '\n|'+z+'|'+users[i].author+'|'+users[i].comments+'|'+users[i].posts  +'|'+users[i].points+'|';
-
-  
-const fs = require("fs");            
-fs.appendFileSync(bd_name+d+".txt",notfull);
-
+		  
+			const fs = require("fs");            
+			fs.appendFileSync(bd_name+d+".txt",notfull);
+		 }
 
   //	console.log(notfull);
 
