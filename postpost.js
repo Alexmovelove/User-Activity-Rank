@@ -9,9 +9,17 @@ let num_day = settings.num_day;
 let bd_name = settings.bd_name;
 let hive_name = settings.hive_name;
 let url_post = settings.url_post;
+let password_mysql = settings.password_mysql;
+let user_mysql = settings.user_mysql;
 let title_name = settings.title_name;
+let image_list = settings.image_list;
 
-
+config = {
+  host: "localhost",
+  user: user_mysql,
+  database: bd_name,
+  password: password_mysql
+}
 let wifkey = '5HqoumrYjyo1kBvKr4dkwyc7VfFogp48n81qSrrUhXvUr7v4rS7';
 let votey = "alexmove.witness";
 	//for (var yyy = 0; yyy < 2; yyy++)
