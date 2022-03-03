@@ -71,7 +71,6 @@ let notfull;
    let z = Number(i + 1);
    notfull = '\n|'+z+'|'+users[i].author+'|'+'<a href="'+ users[i].url+'">' + title + '</a>'+'|'+ users[i].comments+'|'+ users[i].length+'|\n';
   
-const fs = require("fs");            
 fs.appendFileSync("post"+bd_name+d+".txt",notfull);
 
 
