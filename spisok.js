@@ -1,7 +1,6 @@
 const fs = require("fs");
 const steem = require('steem');
 const mysql = require('mysql2');
-let body3R = '';
 
 var settings = require('./config.js');
 
