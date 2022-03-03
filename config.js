@@ -1,4 +1,4 @@
-exports.num_day = 2;
+exports.num_day = 4;
 exports.bd_name = "familyrank";
 exports.password_mysql = "BogSilSavaof";
 exports.user_mysql = "main";
