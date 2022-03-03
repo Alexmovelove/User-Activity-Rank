@@ -13,10 +13,11 @@ let url_post = settings.url_post;
 
 config = {
   host: "localhost",
-  user: "root",
+  user: user_mysql,
   database: bd_name,
-  password: "root"
+  password: password_mysql
 }
+
 const connection = mysql.createConnection(config);
 
 let mytable_p = 'posts01';
