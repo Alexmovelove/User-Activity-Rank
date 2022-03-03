@@ -10,6 +10,8 @@ let hive_name = settings.hive_name;
 let url_post = settings.url_post;
 let password_mysql = settings.password_mysql;
 let user_mysql = settings.user_mysql;
+let title_name = settings.title_name;
+let image_list = settings.image_list;
 
 config = {
   host: "localhost",
