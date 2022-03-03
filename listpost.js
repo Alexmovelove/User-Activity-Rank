@@ -85,14 +85,12 @@ fs.appendFileSync("post"+bd_name+d+".txt",notfull);
 	//console.log(notfull);
 	
 	
-const fs = require("fs");            
 
 full = `\n
 `
 
 
 	
-      const fs = require("fs");            
 	  fs.appendFileSync("post"+bd_name+d+".txt",full);
 		
 		
