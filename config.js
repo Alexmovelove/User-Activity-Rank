@@ -1,4 +1,4 @@
-exports.num_day = 4;
+exports.num_day = 1;
 
 	var d = new Date(); // Today!
 	d.setDate(d.getDate()-exports.num_day); // Yesterday!
