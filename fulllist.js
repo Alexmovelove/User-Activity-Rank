@@ -30,11 +30,12 @@ let formula;
 	d = d.toJSON().split("T")[0];
 	d = d.replace(/-/gi, '');
 	
-
 let mytable = 'a'+d;
 console.log(mytable);
 
 	let full = `![image.png](https://cdn.steemitimages.com/DQmVStQp6vdGH9kr7s1Pji4a97Rate5GPnh884r38v7GBgA/image.png)
+
+Today's lider of Rank: @xxxxx
 
 Thank you for your activity! The leader of the rating receives a reward in the form of upvotes of the entire rating support team. The description of the command is below. I invite you to join the team. Every cent and every upvote counts!
 
@@ -77,15 +78,19 @@ connection.query(sql,  function(err, results) {
 			var d = new Date(); // Today!
 			d.setDate(d.getDate()-num_day); // Yesterday!
 			d = d.toJSON().split("T")[0];
-			d = d.replace(/-/gi, '');
+				d = d.replace(/-/gi, '');
+
+		//	d = d.replace('xxxxx', users[1].authors);
 							 
 			//        title = users[i].title.replace(/[^a-zа-яё0-9\s]/gi, ' ');
+
+			full = full.replace(/xxx/gi, '');
 
 			console.log('|',i+1,'|',users[i].author,'|',users[i].comments,'|',users[i].posts,'|',users[i].points,'|');
 
 			let z = Number(i + 1);
 
-			notfull = '\n|'+z+'|'+users[i].author+'|'+users[i].comments+'|'+users[i].posts  +'|'+users[i].points+'|';
+			notfull = users[1].authors+users[1].authors+users[1].authors+'\n|'+z+'|'+users[i].author+'|'+users[i].comments+'|'+users[i].posts  +'|'+users[i].points+'|';
 
 		  
 			const fs = require("fs");            
@@ -103,7 +108,11 @@ connection.query(sql,  function(err, results) {
 
 	//console.log(notfull);
 	      const fs = require("fs");            
-		
+			let notfull;
+			var d = new Date(); // Today!
+			d.setDate(d.getDate()-num_day); // Yesterday!
+			d = d.toJSON().split("T")[0];
+				d = d.replace(/-/gi, '');	
 //accounts = accounts.replace(/\n\n/gi, '\n');
 let accounts_com = fs.readFileSync('com'+bd_name+d+'.txt').toString()	
 accounts_com = accounts_com.replace(/\n\n/gi, '\n');

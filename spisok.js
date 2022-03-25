@@ -97,3 +97,4 @@ const connection = mysql.createConnection(config);
 		});
 //});
 
+connection.end();

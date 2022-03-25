@@ -60,3 +60,4 @@ connection.query(sql,  function(err, results) {
 });
 
 
+connection.end();
