@@ -1,4 +1,4 @@
-exports.num_day = 45;
+exports.num_day = 27;
 
 	var d = new Date(); // Today!
 	d.setDate(d.getDate()-exports.num_day); // Yesterday!
@@ -6,7 +6,7 @@ exports.num_day = 45;
 	d = d.replace(/-/gi, '');
 	
 //exports.bd_name = "familyrank";
-exports.bd_name = "family";
+exports.bd_name = "family2";
 //exports.password_mysql = "BogSilSavaof";
 exports.password_mysql = "root";
 //exports.user_mysql = "main";

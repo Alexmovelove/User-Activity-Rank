@@ -31,9 +31,11 @@ let formula;
 	d = d.replace(/-/gi, '');
 	
 let mytable = 'a'+d;
+let name_file = "rank/"+bd_name+d+".txt";
+
 console.log(mytable);
 
-	let full = `![image.png](https://cdn.steemitimages.com/DQmVStQp6vdGH9kr7s1Pji4a97Rate5GPnh884r38v7GBgA/image.png)
+let full = `![image.png](https://cdn.steemitimages.com/DQmVStQp6vdGH9kr7s1Pji4a97Rate5GPnh884r38v7GBgA/image.png)
 
 Today's lider of Rank: @xxxxx
 
@@ -47,9 +49,6 @@ Thank you for your activity! The leader of the rating receives a reward in the f
 |N|account|points for comments|points for posts|total score for the day|
 ------------|-------------|------------|-------------|---------|`;
 
-const fs = require("fs");            
-fs.appendFileSync(bd_name+d+".txt",full);
-
 
 
 
@@ -60,9 +59,24 @@ const sql = `SELECT * FROM ${mytable} ORDER BY points DESC` ;
 connection.query(sql,  function(err, results) {
     if(err) console.log(err);
     const users = results;
+	console.log('users');
+	console.log('users');
+	console.log('users');
+	console.log('users');
+	console.log('users');
 	console.log(users);
+	console.log('users');
+	console.log('users');
+	console.log('users');
+	console.log('users');
+	console.log('users');
+
+full = full.replace('xxxxx',users[0].author);
+	const fs = require("fs");   
 	
-	
+fs.appendFileSync(name_file,full);
+
+
 	
      for(let i=0; i < users.length; i++){	
 		 if (users[i].points == 0)
@@ -80,21 +94,19 @@ connection.query(sql,  function(err, results) {
 			d = d.toJSON().split("T")[0];
 				d = d.replace(/-/gi, '');
 
-		//	d = d.replace('xxxxx', users[1].authors);
+	//	d = d.replace('xxxxx', users[1].authors);
 							 
 			//        title = users[i].title.replace(/[^a-zа-яё0-9\s]/gi, ' ');
-
-			full = full.replace(/xxx/gi, '');
 
 			console.log('|',i+1,'|',users[i].author,'|',users[i].comments,'|',users[i].posts,'|',users[i].points,'|');
 
 			let z = Number(i + 1);
 
-			notfull = users[1].authors+users[1].authors+users[1].authors+'\n|'+z+'|'+users[i].author+'|'+users[i].comments+'|'+users[i].posts  +'|'+users[i].points+'|';
+			notfull = users[1].authors+users[1].authors+users[1].authors+'\n|'+z+'|'+users[i].author+'|'+users[i].comments+'|'+users[i].posts+'|'+users[i].points+'|';
 
 		  
-			const fs = require("fs");            
-			fs.appendFileSync(bd_name+d+".txt",notfull);
+	//			const fs = require("fs");            
+		fs.appendFileSync(name_file,notfull);
 
 		 }
 
@@ -107,17 +119,17 @@ connection.query(sql,  function(err, results) {
 	//  + '\n|'+i+1+'|'+users[i].author+'|'+'<a href="'+ users[i].url+'">' + title + '</a>'+'|'+ users[i].comments+'|'+ users[i].length+'|\n' 
 
 	//console.log(notfull);
-	      const fs = require("fs");            
+	  //    const fs = require("fs");            
 			let notfull;
 			var d = new Date(); // Today!
 			d.setDate(d.getDate()-num_day); // Yesterday!
 			d = d.toJSON().split("T")[0];
 				d = d.replace(/-/gi, '');	
 //accounts = accounts.replace(/\n\n/gi, '\n');
-let accounts_com = fs.readFileSync('com'+bd_name+d+'.txt').toString()	
+let accounts_com = fs.readFileSync('rank/com'+bd_name+d+'.txt').toString()	
 accounts_com = accounts_com.replace(/\n\n/gi, '\n');
 
-let accounts_post = fs.readFileSync('post'+bd_name+d+'.txt').toString()	
+let accounts_post = fs.readFileSync('rank/post'+bd_name+d+'.txt').toString()	
 accounts_post = accounts_post.replace(/\n\n/gi, '\n');
 
 full = `
@@ -146,7 +158,7 @@ Thanks for attention!
 `
 
 
-	  fs.appendFileSync(bd_name+d+".txt",full);
+	  fs.appendFileSync(name_file,full);
 		
 	
 });

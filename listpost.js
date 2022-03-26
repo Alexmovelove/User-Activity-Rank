@@ -29,7 +29,7 @@ let formula;
 	
 
 let mytable = 'p'+d;
-
+let name_file = "rank/post"+bd_name+d+".txt";
 
 	let full = `
 |N|acc|title|comm.|length|
@@ -37,7 +37,7 @@ let mytable = 'p'+d;
 
 
 const fs = require("fs");            
-fs.appendFileSync("post"+bd_name+d+".txt",full);
+fs.appendFileSync(name_file,full);
 
 
 
@@ -71,7 +71,7 @@ let notfull;
    let z = Number(i + 1);
    notfull = '\n|'+z+'|'+users[i].author+'|'+'<a href="'+ users[i].url+'">' + title + '</a>'+'|'+ users[i].comments+'|'+ users[i].length+'|\n';
   
-fs.appendFileSync("post"+bd_name+d+".txt",notfull);
+fs.appendFileSync(name_file,notfull);
 
 
   //	console.log(notfull);
@@ -91,7 +91,7 @@ full = `\n
 
 
 	
-	  fs.appendFileSync("post"+bd_name+d+".txt",full);
+	  fs.appendFileSync(name_file,full);
 		
 		
 });

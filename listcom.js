@@ -29,6 +29,7 @@ let formula;
 	d = d.replace(/-/gi, '');
 	
 let mytable = 'c'+d;
+let name_file = "rank/com"+bd_name+d+".txt";
 
 
 	let full = `
@@ -38,7 +39,7 @@ let mytable = 'c'+d;
 
 const fs = require("fs");            
 //fs.appendFileSync("..\\com"+d+".txt",full);
-fs.appendFileSync("com"+bd_name+d+".txt",full);
+fs.appendFileSync(name_file,full);
 
 
 const sql = `SELECT * FROM ${mytable} ORDER BY points DESC` ;
@@ -77,7 +78,7 @@ let notfull;
   
 const fs = require("fs");            
 //fs.appendFileSync("..\\com"+d+".txt",notfull);
-fs.appendFileSync("com"+bd_name+d+".txt",notfull);
+fs.appendFileSync(name_file,notfull);
 
 
 		   }
