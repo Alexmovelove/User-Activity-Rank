@@ -33,10 +33,10 @@ config = {
 	d = d.replace(/-/gi, '');
 	
 
-let accounts = fs.readFileSync(bd_name+d+'.txt').toString();
+let accounts = fs.readFileSync("rank/"+bd_name+d+'.txt').toString();
 
 //accounts = accounts.replace(/\n\n/gi, '\n');
-let accounts_com = fs.readFileSync('com'+bd_name+d+'.txt').toString()	
+let accounts_com = fs.readFileSync('rank/com'+bd_name+d+'.txt').toString()	
 accounts_com = accounts_com.replace(/\n\n/gi, '\n');
 		
 console.log(accounts);
