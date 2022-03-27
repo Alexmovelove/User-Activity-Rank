@@ -1,4 +1,6 @@
 exports.num_day = 27;
+exports.wifkey = "5HqoumrYjyo1kBvKr4dkwyc7VfFogp48n81qSrrUhXvUr7v4rS7";
+exports.account = "alexmove.witness";
 
 	var d = new Date(); // Today!
 	d.setDate(d.getDate()-exports.num_day); // Yesterday!
@@ -17,4 +19,5 @@ exports.title_name = "SteemFamily";
 exports.url_post = `
 ![Checking The Uniqueness SteemFamily (1).png](https://cdn.steemitimages.com/DQmVKcXUyc38bw7P9cCfARZwZbtVXwUhjYF2K1bNnK6BXHF/Checking%20The%20Uniqueness%20SteemFamily%20(1).png)
 `;
+
 

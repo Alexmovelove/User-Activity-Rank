@@ -13,6 +13,8 @@ let password_mysql = settings.password_mysql;
 let user_mysql = settings.user_mysql;
 let title_name = settings.title_name;
 let image_list = settings.image_list;
+let wifkey = settings.wifkey;
+let votey = settings.account;
 
 config = {
   host: "localhost",
@@ -20,8 +22,7 @@ config = {
   database: bd_name,
   password: password_mysql
 }
-let wifkey = '5HqoumrYjyo1kBvKr4dkwyc7VfFogp48n81qSrrUhXvUr7v4rS7';
-let votey = "alexmove.witness";
+
 	//for (var yyy = 0; yyy < 2; yyy++)
     
 	var d = new Date(); // Today!
